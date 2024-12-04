@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4ff;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f0f4ff;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  header .cta {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .hero .form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .hero input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #e8533d;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+  }
+  .logo{
+    padding-left: 250px;
+  }
+  nav{
+    padding-right: 500px;
+  }
